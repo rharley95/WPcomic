@@ -1,0 +1,49 @@
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.container {
+  padding-left: 250px;
+}
+
+.navbar {
+  position: fixed;
+  height: 100%;
+  background-color: #262626;
+  border-radius: 0;
+  width: 250px;
+
+  img{
+    height: 80px;
+    margin: 0 auto;
+    display: inline-block;
+  }
+
+
+  ul {
+    padding-left: 0;
+
+  }
+
+  h1 {
+    padding: 10px;
+    //font-size: 2em;
+
+  }
+
+  a {
+    color: #fff;
+  }
+
+  li {
+    list-style: none;
+    padding: 10px;
+    text-align: left;
+  }
+}
+
+.comic-content {
+
+  img{
+    max-width: 100%;
+  }
+
+}
