@@ -1,7 +1,11 @@
 @import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+body {
+  background-color: #464b50;
+}
 
 .container {
   padding-left: 250px;
+  color: #ffffff;
 }
 
 .navbar {
@@ -31,12 +35,21 @@
 
   a {
     color: #fff;
+
+
+  }
+
+  a:hover {
+    color: #79cbed;
+    text-decoration: none;
   }
 
   li {
     list-style: none;
     padding: 10px;
     text-align: left;
+
+
   }
 }
 

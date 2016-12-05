@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<!--    'posts_per_page' => 1-->
+    'posts_per_page' =>
     <section class="container">
         <div class="main">
 
@@ -17,14 +17,16 @@
 
                 <div class="comic-content">
 
-                    <? if($title): ?>
+                    <?= the_content(); ?>
 
-                        <h3> <?= $title ?> </h3>
-                    <? endif; ?>
-
-                    <? if($comic): ?>
-                        <img src="<?= $comic['url'] ?>" />
-                    <? endif; ?>
+<!--                    --><?// if($title): ?>
+<!---->
+<!--                        <h3> --><?//= $title ?><!-- </h3>-->
+<!--                    --><?// endif; ?>
+<!---->
+<!--                    --><?// if($comic): ?>
+<!--                        <img src="--><?//= $comic['url'] ?><!--" />-->
+<!--                    --><?// endif; ?>
 
                 </div>
 

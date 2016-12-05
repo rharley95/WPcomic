@@ -35,6 +35,31 @@ function include_jQuery() {
 add_action('wp_enqueue_scripts', 'include_jQuery');
 
 
+add_action( 'init', 'create_post_type' );
+
+function create_post_type() {
+
+    register_post_type( 'archive',
+
+        array(
+
+            'labels' => array(
+
+                'name' => __( 'Archive' ),
+
+                'singular_name' => __( 'Deal' )
+
+            ),
+
+        'public' => true,
+
+        'has_archive' => true,
+
+        )
+
+    );
+
+}
 
 
 ?>

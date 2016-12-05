@@ -8,16 +8,18 @@ get_header(); ?>
         <div class="main" role="main">
 
             <?php the_post(); ?>
-            <h1 class="entry-title"><?php the_title(); ?></h1>
+            <h1 class="entry-title">Archive</h1>
 
 
             <h2>Archives by Subject:</h2>
             <ul>
+                <?php the_content(); ?>
                 <?php wp_list_categories(); ?>
             </ul>
+
+
 
         </div><!-- #content -->
     </div><!-- #container -->
 
-
-<?php get_footer(); ?>
+<?php //get_footer(); ?>
