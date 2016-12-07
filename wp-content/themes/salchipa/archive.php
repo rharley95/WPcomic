@@ -13,7 +13,7 @@ get_header(); ?>
 
             <h2>Archives by Subject:</h2>
             <ul>
-                <?php the_content(); ?>
+                <?php //the_content(); ?>
                 <?php wp_list_categories(); ?>
             </ul>
 

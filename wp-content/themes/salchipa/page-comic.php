@@ -19,14 +19,14 @@
 
                     <?= the_content(); ?>
 
-<!--                    --><?// if($title): ?>
-<!---->
-<!--                        <h3> --><?//= $title ?><!-- </h3>-->
-<!--                    --><?// endif; ?>
-<!---->
-<!--                    --><?// if($comic): ?>
-<!--                        <img src="--><?//= $comic['url'] ?><!--" />-->
-<!--                    --><?// endif; ?>
+                    <? if($title): ?>
+
+                        <h3> <?= $title ?> </h3>
+                    <? endif; ?>
+
+                    <? if($comic): ?>
+                        <img src="<?= $comic['url'] ?>" />
+                    <? endif; ?>
 
                 </div>
 
